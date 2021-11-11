@@ -3,7 +3,7 @@ def run():
 #     for i in range(1, 101):
 #         if i%3 != 0:
 #             squares.append(i**2)
-    #   This is a list comprehension - for more info: https://bit.ly/3bZiM5U
+#   This is a list comprehension - for more info: https://bit.ly/3bZiM5U
     squares = [i**2 for i in range(1, 101) if i % 3 != 0]
     print (squares)
     #   Challenge of the class

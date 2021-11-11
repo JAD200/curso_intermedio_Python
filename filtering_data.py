@@ -11,13 +11,13 @@ def run():
     adults = list(map(lambda worker: worker['name'], adults))
 
 #   HIGH ORDER FUNCTION
-    old_people = list(map(lambda worker: worker | {'old': worker['age'] > 70}, DATA))
+    # old_people = list(map(lambda worker: worker | {'old': worker['age'] > 70}, DATA))
 
     # for worker in all_python_devs:
     #     print(worker)
 
 #   Challenges of the class
-    #   FILTER & MAP
+
     print('\n* * * PYTHON DEVS * * *')
     all_python_devs = list(filter(lambda worker: worker['language'] == 'python',DATA))
     all_python_devs = list(map(lambda worker: worker['name'], all_python_devs))
@@ -36,9 +36,9 @@ def run():
         print(worker)
 
     print('\n* * * OLD PEOPLE * * *')
-    #Python 3.8 sintaxis: z = {**x, **y}
+    # Python 3.8 sintaxis: z = {**x, **y}
     old_people = [{**worker, **{'old': worker['age'] > 70}} for worker in DATA]
-    #Python 3.9 sintaxis: z = x | y
+    # Python 3.9 sintaxis: z = x | y
     # old_people = [worker | {'old': worker['age'] > 70} for worker in DATA]
     for worker in old_people:
         print(worker)

@@ -21,6 +21,6 @@
 
 ------------
 
-  [![Logo python](https://piconsulting.com.ar/wp-content/uploads/2018/08/python-logo-2.png "Logo python")](https://www.python.org/)
+  [![Logo python](https://i.imgur.com/fDkhooA.png "Logo python")](https://www.python.org/)
 ####  Hecho por [Juan Di Pasquo](https://twitter.com/JADiPasquo "Juan Di Pasquo")
 #### En [Platzi](https://platzi.com/ "Platzi") con [Facundo García Martoni](https://twitter.com/facmartoni "Facundo García Martoni")
